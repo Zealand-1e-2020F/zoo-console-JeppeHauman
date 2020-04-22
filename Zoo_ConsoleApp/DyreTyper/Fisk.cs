@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zoo_ConsoleApp
+namespace Zoo_ConsoleApp.DyreTyper
 {
-    public class Fisk
+    public abstract class Fisk : Dyr
     {
+        public Fisk(string navn) : base(navn)
+        {
+        }
     }
 }

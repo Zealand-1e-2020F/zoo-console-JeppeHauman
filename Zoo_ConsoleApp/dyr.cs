@@ -7,17 +7,9 @@ namespace Zoo_ConsoleApp
     /// <summary>
     /// base klasse for dyr i zoo
     /// </summary>
-    public class Dyr
+    public abstract class Dyr
     {
         public string DyreNavn { get; }
-
-        /// <summary>
-        /// default constructor
-        /// </summary>
-        public Dyr()
-        {
-
-        }
 
         /// <summary>
         /// cosntructor som tager dyrenavn som parameter
